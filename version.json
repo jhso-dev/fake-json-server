@@ -2,13 +2,11 @@
   "version": {
     "version":"5.3.1",
     "latest":"5.3.1",
-    "upgrade":false,
-    "forceLogin":true
+    "upgrade":false
   },
   "homeVersion": {
     "version":"5.3.1",
     "latest":"5.3.1",
-    "upgrade":false,
-    "forceLogin":true
+    "upgrade":false
   }
 }
