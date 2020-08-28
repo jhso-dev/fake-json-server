@@ -1,0 +1,40 @@
+<div data-vimeo-id="19231868" data-vimeo-width="640" id="video1"></div>
+<div data-vimeo-url="https://vimeo.com/76979871" id="video2"></div>
+<div data-vimeo-id="19231868" data-vimeo-width="640" id="video3"></div>
+<div data-vimeo-url="https://vimeo.com/76979871" id="video4"></div>
+<div data-vimeo-id="19231868" data-vimeo-width="640" id="video5"></div>
+<div data-vimeo-url="https://vimeo.com/76979871" id="video6"></div>
+<script src="https://player.vimeo.com/api/player.js"></script>
+<script>
+    // If you want to control the embeds, you’ll need to create a Player object.
+    // You can pass either the `<div>` or the `<iframe>` created inside the div.
+    var video1 = new Vimeo.Player('video1');
+    video1.on('play', function() {
+        console.log('played the video1 video!');
+    });
+    
+    var video2 = new Vimeo.Player('video2');
+    video2.on('play', function() {
+        console.log('played the video2 video!');
+    });
+    
+    var video3 = new Vimeo.Player('video3');
+    video3.on('play', function() {
+        console.log('played the video3 video!');
+    });
+
+    var video4 = new Vimeo.Player('video4');
+    video4.on('play', function() {
+        console.log('played the video4 video!');
+    });
+    
+    var video5 = new Vimeo.Player('video5');
+    video5.on('play', function() {
+        console.log('played the video5 video!');
+    });
+    
+    var video6 = new Vimeo.Player('video6');
+    video6.on('play', function() {
+        console.log('played the video6 video!');
+    });
+</script>
